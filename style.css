@@ -13,3 +13,11 @@ body {
   height: 100vh;
   backdrop-filter: brightness(50%);
 }
+
+nav .burger {
+  color: #fff;
+  font-size: 50px;
+  /* background-color: yellow; */
+  padding: 20px;
+  position: fixed;
+}
