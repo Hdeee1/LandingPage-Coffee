@@ -63,8 +63,8 @@ nav .burger {
   background-color: rgb(255, 135, 49);
   border: 2px solid #fff;
   margin-top: 1.5rem;
-  outline: rgb(255, 135, 49);
-  outline-offset: 1rem;
+  outline: 2px solid rgb(255, 135, 49);
+  outline-offset: 0.25rem;
 }
 
 .container-card-one {
@@ -193,18 +193,22 @@ img {
 }
 
 .card-service {
-  background-color: aqua;
+  background-color: #fff;
   max-width: 30rem;
-  height: 36rem;
+  height: 32rem;
   border-radius: 20px;
   overflow: hidden;
   margin-top: 40px;
-  position: relative;
+  box-shadow: 0;
 }
 
 .img-service {
   background-color: yellow;
-  height: 20rem;
+  max-width: 30rem;
+  max-height: 250px;
+  border-radius: 10px 0 0;
+  overflow: hidden;
+  /* margin: 15px 0; */
 }
 
 .container-circle {
@@ -219,8 +223,8 @@ img {
   margin-inline: auto;
   top: -2.5rem;
   /* top: 17.5rem;
-  left: 50%;
-  transform: translateX(-50%); */
+    left: 50%;
+    transform: translateX(-50%); */
 }
 
 .circle {
@@ -232,6 +236,18 @@ img {
   align-items: center;
   justify-content: center;
 }
-.card-description {
-  margin-top: -2rem;
+.container-card-service .card-service .card-description {
+  margin-top: -20px;
+  padding: 0 025px;
+}
+
+button {
+  width: 120px;
+  height: 30px;
+  margin-top: 20px;
+  background-color: rgb(255, 135, 49);
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  letter-spacing: 2px;
 }
