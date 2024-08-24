@@ -82,8 +82,8 @@ nav .burger {
   font-family: "Poppins", sans-serif;
 }
 
-.card-one i {
-  font-size: 40px;
+i {
+  font-size: 35px;
   color: rgb(255, 135, 49);
 }
 
@@ -130,15 +130,14 @@ img {
   margin: 10px 0;
 }
 
-.container-description .tittle1 {
+.tittle1 {
   color: rgb(255, 135, 49);
   font-family: "Pacifico", sans-serif;
   font-weight: 500;
   letter-spacing: 1.5px;
   margin-top: 20px;
 }
-
-.container-description .tittle2 {
+.tittle2 {
   font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
 }
