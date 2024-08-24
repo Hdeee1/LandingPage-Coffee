@@ -74,7 +74,8 @@ button {
   /* background-color: aqua; */
   height: 250px;
   width: 100%;
-  /* border-bottom: 2px solid black; */
+  padding: 40px;
+  border-bottom: 2px solid black;
   display: flex;
   flex-direction: column;
   gap: 1rem;
