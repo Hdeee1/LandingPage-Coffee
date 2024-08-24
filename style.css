@@ -22,13 +22,12 @@ nav .burger {
   position: fixed;
 }
 
-.container {
-  /* background-color: aqua; */
+.container-top {
+  border-bottom: 8px solid rgb(255, 135, 49);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
 }
 
 .container-judul {
@@ -59,4 +58,40 @@ button {
   background-color: rgb(255, 135, 49);
   border: 2px solid #fff;
   margin-top: 1.5rem;
+}
+
+.container-card-one {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.container-card-one .card-one {
+  /* background-color: aqua; */
+  height: 250px;
+  width: 100%;
+  /* border-bottom: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-one i {
+  font-size: 40px;
+  color: rgb(255, 135, 49);
+}
+
+.card-one h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-one p {
+  font-size: 15px;
 }
