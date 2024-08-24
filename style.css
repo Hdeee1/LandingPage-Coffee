@@ -23,7 +23,7 @@ nav .burger {
 }
 
 .container {
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -33,4 +33,18 @@ nav .burger {
 
 .container-judul {
   text-align: center;
+}
+
+.container-judul h2 {
+  color: rgb(255, 135, 49);
+  font-family: "Pacifico", sans-serif;
+  font-weight: 500;
+}
+
+.container-judul h1 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
