@@ -21,3 +21,16 @@ nav .burger {
   padding: 20px;
   position: fixed;
 }
+
+.container {
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.container-judul {
+  text-align: center;
+}
