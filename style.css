@@ -251,3 +251,62 @@ button {
   color: #fff;
   letter-spacing: 2px;
 }
+
+.contact {
+  /* background-color: aquamarine; */
+  width: 28rem;
+  font-family: "Poppins", sans-serif;
+}
+.contact .top {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.contact .top i {
+  font-size: 20px;
+}
+
+.container-form {
+  background-color: aqua;
+  height: 350px;
+  width: 450px;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.form-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  margin-top: -10px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 400px;
+  height: 45px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+textarea {
+  padding-left: 15px;
+  padding-top: 15px;
+  height: 100px;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-radius: 8px;
+}
