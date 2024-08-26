@@ -82,6 +82,12 @@ nav .burger {
   outline: 2px solid rgb(255, 135, 49);
   outline-offset: 0.25rem;
   border-radius: 0;
+  transition: 300ms;
+}
+
+.container-judul button:hover {
+  background-color: rgb(223, 174, 138);
+  color: rgb(255, 138, 55);
 }
 
 .container-card-one {
