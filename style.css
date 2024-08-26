@@ -102,14 +102,19 @@ nav .burger {
 
 .container-card-one .card-one {
   /* background-color: aqua; */
-  height: 200px;
+  height: 250px;
   width: 100%;
-  border-bottom: 2px solid black;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   justify-content: center;
   font-family: "Poppins", sans-serif;
+  transition: all ease-in-out 100ms;
+  margin: 5px 0;
+}
+
+.container-card-one .card-one:hover {
+  border-bottom: 2px solid rgb(255, 138, 55);
 }
 
 i {
