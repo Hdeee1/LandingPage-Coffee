@@ -26,6 +26,23 @@ nav .burger {
   position: fixed;
 }
 
+.burger {
+  animation-name: burger;
+  animation-duration: 300ms;
+  animation-iteration-count: infinite;
+}
+@keyframes burger {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .container-top {
   border-bottom: 8px solid rgb(255, 135, 49);
   height: 100vh;
@@ -61,10 +78,10 @@ nav .burger {
   font-weight: 600;
   letter-spacing: 2px;
   background-color: rgb(255, 135, 49);
-  border: 2px solid #fff;
   margin-top: 1.5rem;
   outline: 2px solid rgb(255, 135, 49);
   outline-offset: 0.25rem;
+  border-radius: 0;
 }
 
 .container-card-one {
