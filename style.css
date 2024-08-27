@@ -199,6 +199,12 @@ img {
   letter-spacing: 3px;
   border: 0;
   margin-bottom: 40px;
+  transition: 300ms;
+}
+
+.descrip:hover {
+  background-color: rgba(255, 135, 49, 0.397);
+  color: rgb(255, 135, 49);
 }
 
 .card-products {
@@ -232,7 +238,12 @@ img {
   border-radius: 20px;
   overflow: hidden;
   margin-top: 40px;
-  box-shadow: 0;
+  transition: 300ms;
+}
+
+.card-service:hover {
+  scale: 1.01;
+  box-shadow: 0px 5px 15px #00000050;
 }
 
 .img-service {
@@ -283,6 +294,12 @@ button {
   border-radius: 8px;
   color: #fff;
   letter-spacing: 2px;
+  transition: 300ms;
+}
+
+.card-description button:hover {
+  background-color: rgba(255, 135, 49, 0.336);
+  color: rgb(255, 135, 49);
 }
 
 .contact {
@@ -312,9 +329,14 @@ button {
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-  box-shadow: 0px 5px 10px 5px rgba(158, 158, 158, 0.404);
+  box-shadow: 0px 10px 15px 5px #3636361c;
   margin-bottom: 30px;
+  transition: 200ms;
 }
+.container-form:hover {
+  box-shadow: 0px 10px 20px 5px rgba(29, 29, 29, 0.199);
+}
+
 .form-card {
   display: flex;
   flex-direction: column;
@@ -364,6 +386,11 @@ textarea {
   letter-spacing: 3px;
 }
 
+.submit-btn button:hover {
+  background-color: rgba(255, 135, 49, 0.514);
+  color: rgb(255, 135, 49);
+}
+
 footer {
   background-color: rgb(27, 27, 27);
   height: 200px;
@@ -388,6 +415,11 @@ footer {
 .footer-social-media i {
   color: #fff;
   font-size: 25px;
+  transition: 200px;
+}
+
+.footer-social-media i:hover {
+  opacity: 50%;
 }
 
 .copyright {
