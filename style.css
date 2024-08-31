@@ -100,6 +100,29 @@ nav .burger {
   text-align: center;
 }
 
+@media only screen and (min-width: 768px){
+  .container-card-one{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container{
+    /* display: flex; */
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+  }
+  .container-description{
+    width: 300px;
+  }
+
+  .container-card-service{
+flex-direction: row;
+  }
+}
+
 .container-card-one .card-one {
   /* background-color: aqua; */
   height: 250px;
@@ -133,7 +156,7 @@ p {
 }
 
 .container {
-  /* background-color: #fff; */
+  /* background-color: gray; */
   height: auto;
   display: flex;
   flex-direction: column;
@@ -147,7 +170,6 @@ p {
 .container-image {
   background-color: rgba(255, 135, 49, 0.719);
   border: 8px solid rgb(255, 135, 49);
-  max-width: 30rem;
   max-width: 25rem;
   overflow: hidden;
 }
